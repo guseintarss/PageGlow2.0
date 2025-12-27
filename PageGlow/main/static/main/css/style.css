@@ -149,28 +149,8 @@ header p {
     padding: 5px;
 }
 
-.log-in-out{
-    position:absolute;
-    right:23rem;
-    top:0.5rem;
-}
-
 .log-in{
-    padding:0.6rem 1rem;
-    border-radius:10px;
-    font-size:1.1rem;
-    border:none;
-    cursor:pointer;
-    background-color: #2b3d4e;
-    color: #fff;
-}
-
-.log-in:hover{
-    background-color:#3d566e;
-}
-
-.sign-in, .log-out{
-    display: none;
+    margin-left:42em;
 }
 
 /* Основной макет */

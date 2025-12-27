@@ -74,10 +74,21 @@ WSGI_APPLICATION = 'PageGlow.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'pageglow',
+        'USER': 'temirlan',
+        'PASSWORD': '47692581Qw',
+        'HOST': '195.133.145.235',
+        'PORT': '5432',
     }
 }
 

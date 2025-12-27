@@ -1,13 +1,27 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PageGlow — статьи, мысли, знания</title>
+  <link rel="stylesheet" href="{% static 'register/css/reg.css' %}" />
 </head>
 <body>
-
-</body>
-</html>
+  <header>
+    <div class="container">
+      <h1>«PageGlow»</h1>
+      <p>Где каждый найдёт свою мысль</p>
+    </div>
+    <button id="theme-toggle" class="theme-btn">🌙</button>
+  </header>
+  <nav class="navbar">
+    <div class="container">
+        <a href="#">Главная</a>
+        <a href="#">Статьи</a>
+        <a href="#">О сайте</a>
+        <a href="#">Контакты</a>
+        <a href="{% url 'register' %}" class="log-in">Войти</a>
+<!--      <input type="text" id="search-input" placeholder="🔍 Найти статью…" aria-label="Поиск по сайту">-->
+<!--      <div id="search-results" class="search-results"></div>-->
+    </div>
+  </nav>

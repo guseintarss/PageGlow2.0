@@ -5,4 +5,4 @@ def index(request):
     return render(request, 'main/index.html')
 
 def log_in(request):
-    return render(request, 'main/log_in.html')
+    return render(request, 'register/log_in.html')
