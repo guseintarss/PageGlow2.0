@@ -149,6 +149,10 @@ header p {
     padding: 5px;
 }
 
+.log-in{
+    margin-left:42em;
+}
+
 /* Основной макет */
 main {
   display: flex;
